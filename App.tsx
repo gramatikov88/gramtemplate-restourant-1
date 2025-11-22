@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Intro from './components/Intro';
 import MenuSection from './components/MenuSection';
+import FoodSection from './components/FoodSection';
 import ParallaxImage from './components/ParallaxImage';
 import Footer from './components/Footer';
 
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <Hero />
         <Intro />
         <MenuSection />
+        <FoodSection />
         <ParallaxImage />
         {/* Duplicate sections to demonstrate scrolling length typical of Dead Rabbit style */}
         <section className="py-32 px-6 bg-cream text-emerald-950">
